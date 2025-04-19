@@ -1,0 +1,19 @@
+server:
+  port: 9000
+
+logging:
+  level:
+    org.springframework.security: trace
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/oauth
+    username: postgres
+    password: pass123
+    initialize: true
+    hikari:
+      maximumPoolSize: 5
+  security:
+    user:
+      name: user1
+      password: password
