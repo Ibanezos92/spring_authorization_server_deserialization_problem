@@ -15,8 +15,8 @@ import org.springframework.security.oauth2.server.authorization.token.OAuth2Toke
 
 import java.time.Duration
 
-@Configuration
-@Slf4j
+//@Configuration
+//@Slf4j
 class AuthServerConfig_Problem {
 
     @Bean
